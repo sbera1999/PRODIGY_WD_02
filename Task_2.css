@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.stopwatch {
+    margin: 20px 0;
+}
+
+#time {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+#startPauseBtn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#startPauseBtn:hover {
+    background-color: #218838;
+}
+
+#resetBtn {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+#resetBtn:hover {
+    background-color: #c82333;
+}
+
+#lapBtn {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+#lapBtn:hover {
+    background-color: #e0a800;
+}
+
+.laps {
+    margin-top: 20px;
+}
+
+.laps ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.laps ul li {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
